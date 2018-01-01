@@ -1,7 +1,7 @@
 {
-  "name": "react-starter-kit",
+  "name": "weathrly",
   "version": "1.0.0",
-  "description": "A good enough starter kit for a React project, I guess.",
+  "description": "A weather app using the wunderground api",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/turingschool-examples/react-starter-kit.git"
+    "url": "https://github.com/jjlljj/weathrly"
   },
   "jest": {
     "moduleNameMapper": {
@@ -18,12 +18,12 @@
       "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
     }
   },
-  "author": "Steve Kinney",
+  "author": "James Logue",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/turingschool-examples/react-starter-kit/issues"
   },
-  "homepage": "https://github.com/turingschool-examples/react-starter-kit",
+  "homepage": "https://github.com/jjlljj/weathrly",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.24.1",

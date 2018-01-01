@@ -1,4 +1,3 @@
-# React Starter Kit
 
 To install the dependencies:
 
