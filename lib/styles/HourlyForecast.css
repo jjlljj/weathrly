@@ -1,3 +1,7 @@
+.hourly-forecast-container {
+  margin: 20px auto;
+}
+
 .hourly-forecast-container h2 {
   margin-left: 20px;
   font-size: 24px;
