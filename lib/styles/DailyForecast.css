@@ -1,0 +1,15 @@
+.daily-forecast-container {
+  margin: 20px;
+}
+
+.daily-forecast-container h2 {
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.daily-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+}
