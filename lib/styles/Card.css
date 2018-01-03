@@ -15,3 +15,8 @@
   font-size: 24px;
   margin: 10px auto;
 }
+
+.forecast-card p {
+  font-size: 14px;
+  margin: 5px;
+}
