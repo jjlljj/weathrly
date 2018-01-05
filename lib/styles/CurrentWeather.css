@@ -6,6 +6,7 @@
   justify-content: space-around;
   text-align: center;
   padding: 20px;
+  z-index: -1;
 }
 
 .current-weather-container header {
