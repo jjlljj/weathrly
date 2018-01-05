@@ -11,14 +11,20 @@
   width: 150px;
 }
 
-.search-container div {
+.search-container li {
+  box-sizing: border-box;
   padding: 5px 10px;
-  width: 128px;
-  height: 20px;
+  width: 150px;
+  height: 30px;
   border: 1px solid #f2f2f2; 
   background: white;
 }
 
-.search-container div:hover {
+.search-container li:focus {
+  background: #f2f2f2; 
+}
+
+.search-container li:hover {
   cursor: pointer;
+  background-color: #f2f2f2;
 }

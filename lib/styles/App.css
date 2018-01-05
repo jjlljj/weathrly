@@ -4,3 +4,7 @@ main {
   flex-direction: column;
   justify-content: space-around;
 }
+
+button, input, li {
+  outline: none;
+}
