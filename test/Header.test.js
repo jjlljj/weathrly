@@ -7,10 +7,27 @@ import dataHandler from '../lib/dataHandler.js'
 const data = dataHandler.cleanData(mockData)
 
 describe('Header', ()=> {
+  let wrapper
+
+  beforeEach(()=> {
+    wrapper = shallow(<Header />)
+  })
 
   it('should exist', ()=> {
-    let wrapper = shallow(<Header />)
     expect(wrapper).toBeDefined()
+  })
+
+  it('should not have any props by default', ()=> {
+    expect(wrapper.props().getForecast).toEqual(undefined)
+  })
+
+
+  it('should render child elements', ()=> {
+    wrapper = mount(<Header />)
+
+    expect(wrapper.find('header').length).toEqual(1)
+    expect(wrapper.find('h2').length).toEqual(1)
+    expect(wrapper.find('Search').length).toEqual(1)
   })
 
 })
