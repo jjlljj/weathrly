@@ -6,7 +6,7 @@ import dataHandler from '../lib/dataHandler.js'
 
 const data = dataHandler.cleanData(mockData)
 
-describe('App', ()=> {
+describe('Weather', ()=> {
 
   it('should exist', ()=> {
     let wrapper = shallow(<Welcome />)
