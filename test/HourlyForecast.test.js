@@ -6,7 +6,7 @@ import dataHandler from '../lib/dataHandler.js'
 
 const data = dataHandler.cleanData(mockData)
 
-describe('Hourly', ()=> {
+describe('HourlyForecast', ()=> {
 
   let wrapper
 
