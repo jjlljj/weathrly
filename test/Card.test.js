@@ -13,4 +13,6 @@ describe('Card', ()=> {
     expect(wrapper).toBeDefined()
   })
 
+  
+
 })
