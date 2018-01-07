@@ -24,7 +24,6 @@
     ],
     "curly": "error",
     "eqeqeq": ["error", "always"],
-    "getter-return": ["error", { "allowImplicit": true }],
     "indent": ["warn", 2],
     "key-spacing": [
       "error", {
@@ -55,12 +54,11 @@
       "error",
       "always"
     ],
-    "no-template-curly-in-string": "error",
     "object-shorthand": [
       "error",
       "always"
     ],
-    "semi": ["error", "always"],
+    "semi": ["error", "never"],
     "semi-spacing": [
       "error", {
         "before": false,
