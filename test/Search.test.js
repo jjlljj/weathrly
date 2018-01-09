@@ -9,7 +9,7 @@ const data = dataHandler.cleanData(mockData)
 describe('Search', ()=> {
 
   it('should exist', ()=> {
-    let wrapper = shallow(<Search />)
+    let wrapper = shallow(<Search getForecast={  } />)
     expect(wrapper).toBeDefined()
   })
 
