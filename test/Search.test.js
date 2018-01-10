@@ -12,6 +12,7 @@ describe('Search', ()=> {
 
   beforeEach(()=> {
     wrapper = mount(<Search getForecast={ loca => { apiReturn = 'api fetch --> ' + loca } } />)
+    apiReturn = ""
   })
 
   it('should exist', ()=> {
